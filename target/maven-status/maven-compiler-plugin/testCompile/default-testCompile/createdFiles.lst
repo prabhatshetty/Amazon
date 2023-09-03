@@ -1,0 +1,10 @@
+com\amazon\pom\a_ProductPage.class
+com\amazon\testcase\E2E_Flow.class
+com\amazon\pom\a_HomePage.class
+com\amazon\testdata\Listener.class
+com\amazon\pom\a_BasePom.class
+demo\Demo.class
+com\amazon\testdata\Data.class
+com\amazon\pom\a_ItemListingPage.class
+com\amazon\testdata\ScreenCap.class
+com\amazon\testcase\Base_Test.class

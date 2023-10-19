@@ -87,7 +87,7 @@ public class Demo {
 				driver.findElement(By.xpath("//a[@id='nav-cart']")).click();
 			}
 		}
-		//test newman test runSS    testtttt
+		//test newman test runSS    testtttt sunil  
 	
 //		a.moveToLocation(0, 600);
 //

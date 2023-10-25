@@ -33,6 +33,7 @@ public class Base_Test {
 	static ExtentSparkReporter report;
 	public static ExtentTest test=null;
 // Testing SCM
+	//Manoj 5: 37 pm
 	@BeforeTest
 	public void intializeBrowser() throws IOException {
 		d = new Data();

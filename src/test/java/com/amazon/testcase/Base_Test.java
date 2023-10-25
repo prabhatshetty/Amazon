@@ -32,7 +32,7 @@ public class Base_Test {
 	public static ExtentReports extent;
 	static ExtentSparkReporter report;
 	public static ExtentTest test=null;
-
+// Testing SCM
 	@BeforeTest
 	public void intializeBrowser() throws IOException {
 		d = new Data();

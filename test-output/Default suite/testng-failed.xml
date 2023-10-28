@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.testcase.E2E_Flow">
+      <class name="com.amazon.testcase.NaukriResumeRefresh">
         <methods>
-          <include name="TestCase_4"/>
-          <include name="closingBrowser"/>
-          <include name="TestCase_5"/>
-          <include name="intializeBrowser"/>
-          <include name="TestCase_6"/>
+          <include name="refreshresume"/>
         </methods>
-      </class> <!-- com.amazon.testcase.E2E_Flow -->
+      </class> <!-- com.amazon.testcase.NaukriResumeRefresh -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

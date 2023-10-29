@@ -15,6 +15,7 @@ public class NaukriResumeRefresh {
 	{
 		ChromeOptions options=new ChromeOptions();
 		//options.addArguments("--headless=new");
+		//options.addArguments("--headless");
 		WebDriver driver=new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -31,10 +32,9 @@ public class NaukriResumeRefresh {
 		File file = new File("./Data/PRABHAT_.SHETTY_ QA.pdf");
 		//driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys("./Data/PRABHAT_.SHETTY_ QA.pdf");
 		driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys(file.getAbsolutePath());
-		Thread.sleep(10000);
-		Thread.sleep(4000);
+		Thread.sleep(14000);	
 		driver.navigate().refresh();
-		Thread.sleep(10000);
+		Thread.sleep(4000);
 		driver.quit();
 		
 		

@@ -37,7 +37,7 @@ public class NaukriResumeRefresh {
 		Thread.sleep(10000);	
 		driver.navigate().refresh();
 		driver.quit();
-		//Bharath
+		//Bharath bushan
 		
 	}
 

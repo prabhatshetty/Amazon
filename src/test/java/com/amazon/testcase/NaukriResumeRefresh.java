@@ -1,3 +1,5 @@
+
+
 package com.amazon.testcase;
 
 import java.io.File;
@@ -10,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class NaukriResumeRefresh {
-	@Test
+	@Test(invocationCount = 2)
 	public void refreshresume() throws InterruptedException
 	{
 		ChromeOptions options=new ChromeOptions();
@@ -32,11 +34,10 @@ public class NaukriResumeRefresh {
 		File file = new File("./Data/PRABHAT_.SHETTY_ QA.pdf");
 		//driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys("./Data/PRABHAT_.SHETTY_ QA.pdf");
 		driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys(file.getAbsolutePath());
-		Thread.sleep(14000);	
+		Thread.sleep(10000);	
 		driver.navigate().refresh();
-		Thread.sleep(4000);
 		driver.quit();
-		
+		//Bharath
 		
 	}
 

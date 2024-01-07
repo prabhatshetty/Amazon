@@ -37,6 +37,7 @@ public class Demo {
 		Thread.sleep(3000);
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		jse.executeScript("window.scrollBy(0,2400)");
+		//Hello moto
 		// WebElement os = driver.findElement(By.linkText("Include Out of Stock"));
 		// wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("Include
 		// Out of Stock"))));
